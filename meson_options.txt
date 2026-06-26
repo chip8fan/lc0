@@ -1,6 +1,6 @@
 option('openblas_include',
        type: 'array',
-       value: ['/usr/include/openblas/'],
+       value: ['/data/data/com.termux/files/usr/include/openblas'],
        description: 'Paths to openblas include directories')
 
 option('opencl_include',
@@ -210,7 +210,7 @@ option('onnx_libdir',
 
 option('onnx_include',
        type: 'string',
-       value: '/usr/include/onnxruntime/',
+       value: '/data/data/com.termux/files/usr/include/onnxruntime',
        description: 'Paths to ONNX runtime includes')
 
 option('xla',
